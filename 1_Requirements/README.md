@@ -31,11 +31,6 @@ This project performs the following options as feature for booking system:
 ### How:
 ## Detail Requirements
 ### High Level Requirements
-ID	Description	Status
-HLR_1	The user can create a new account	Implemented
-HLR_2	The user can check the account info	Implemented
-HLR_3	The user can check the account balance	Implemented
-HLR_4	The user can transfer the funds	Implemented
-Low Level Requirements
+
 ### Low Level Requirements
 
