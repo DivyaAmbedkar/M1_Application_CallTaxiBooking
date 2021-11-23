@@ -31,8 +31,8 @@ void display();
 struct taxi
     {
         int customer_id;
-        char pickup_point[];
-        char drop_point[]
+        char pickup_point[3];
+        char drop_point[3];
         int pickup_time;
   };
 
@@ -46,8 +46,8 @@ struct booking
     
         int booking_id;
         int customer_id;
-        char from[];
-        char to[];
+        char from[3];
+        char to[3];
         int pickuptime;
         int droptime;
         int amount;
