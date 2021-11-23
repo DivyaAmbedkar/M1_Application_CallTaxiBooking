@@ -52,4 +52,5 @@ struct booking
         int droptime;
         int amount;
     };
+#endif
 
