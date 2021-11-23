@@ -18,10 +18,10 @@
  * 
  */
 void taxiprint(int);
-void booking(struct booking *b,struct taxi t,int no)
-void decrement()
-void taxiprint(int taxino)
-void display()
+void booking(struct booking *b,struct taxi t,int no);
+void decrement();
+void taxiprint(int taxino);
+void display();
   
   
   /**
