@@ -23,6 +23,12 @@ void test_account(void);
 void test_accountcreated(void);
 void test_afterlogin(void);
 void test_logout(void);
+void test_taxiprint(int);
+void test_booking(struct booking *b,struct taxi t,int no);
+void test_decrement();
+void test_taxiprint(int taxino);
+void test_display();
+  
 
 void SetUp(){
 /**
@@ -45,17 +51,12 @@ int main()
  * @brief (Run Test functions)
  * 
  */
-    RUN_TEST(test_checkbalance)
-    RUN_TEST(test_transfermoney)
+    RUN_TEST(test_taxiprint)
+    RUN_TEST(test_booking)
+    RUN_TEST(test_decrement)
+    RUN_TEST(test_taxiprint)
     RUN_TEST(test_display)
-    RUN_TEST(test_person)
-    RUN_TEST(test_login)
-    RUN_TEST(test_loginsu)
-    RUN_TEST(test_account)
-    RUN_TEST(test_accountcreated)
-    RUN_TEST(test_afterlogin)
-    RUN_TEST(test_logout)
-    
+   
     return UNITY_END();
 }
    
