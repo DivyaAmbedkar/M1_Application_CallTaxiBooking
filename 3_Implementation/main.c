@@ -1,4 +1,4 @@
-**
+/**
  * @file main.c
  * @author Divya
  * @brief 
@@ -8,8 +8,6 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
-
 
 
 
