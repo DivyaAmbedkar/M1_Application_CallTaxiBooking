@@ -1,5 +1,5 @@
 /**
- * @file int.c
+ * @file init.c
  * @author Divya
  * @brief 
  * @version 0.1
