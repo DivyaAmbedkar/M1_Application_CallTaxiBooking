@@ -13,16 +13,7 @@
 #include "feature.h"
 #include "math.h"
 
-void test_checkbalance(char);
-void test_transfermoney(void);
-void test_display(char);
-void test_person(char);
-void test_login(void);
-void test_loginsu(void);
-void test_account(void);
-void test_accountcreated(void);
-void test_afterlogin(void);
-void test_logout(void);
+
 void test_taxiprint(int);
 void test_booking(struct booking *b,struct taxi t,int no);
 void test_decrement();
