@@ -4,12 +4,25 @@ Call Taxi Booking Management System is developed to manage all taxi hiring work 
 ## Objective
 The main objective of this project to perform a call taxi booking system application using c programming language and that ensures that the users can book the taxi as per their requirements by on to the website.
 ## Feature
-
+This project performs the following options as feature for booking system:
+* Create booking 
+* Check booking details
+* Select pickup point and drop point
+* Select pickup time
 ## SWOT Analysis
 ### Strength
+* Used for daily transportation needs.
+* Convenience and saftey for customers.
+* Payment can be made in cashless ways, so drivers do not need to carry huge amount of cash with them.
+* Customers can get updates on taxi location and their approximate arrival time.
 ### Weakness
+* If no taxi is free at that time, booking is rejected.
 ### Opportunities
+* Customers find it convenient to book taxi without waiting on the road and refusal.
+* High level of employment and safety to the customers.
 ### Threats
+* Tough competition. 
+* Demand for good drivers.
 ## 4W's and 1H
 ### Why:
 ### Where:
@@ -18,5 +31,11 @@ The main objective of this project to perform a call taxi booking system applica
 ### How:
 ## Detail Requirements
 ### High Level Requirements
+ID	Description	Status
+HLR_1	The user can create a new account	Implemented
+HLR_2	The user can check the account info	Implemented
+HLR_3	The user can check the account balance	Implemented
+HLR_4	The user can transfer the funds	Implemented
+Low Level Requirements
 ### Low Level Requirements
 
