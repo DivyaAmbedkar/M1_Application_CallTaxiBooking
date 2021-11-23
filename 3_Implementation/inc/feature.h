@@ -32,7 +32,7 @@ struct taxi
     {
         int customer_id;
         char pickup_point[];
-        char drop_point[];
+        char drop_point[]
         int pickup_time;
   };
 
